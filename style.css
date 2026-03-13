@@ -1,0 +1,99 @@
+:root {
+  --black: #000000;
+  --baby-pink: #f4c2c2;
+  --neon-teal: #00f2ff; /* A bright, glowing teal */
+  --deep-teal: #008080;
+}
+
+body {
+  background: var(--black);
+  color: var(--baby-pink);
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.hater-vault {
+  background: var(--black);
+  border: 2px solid var(--neon-teal);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 0 15px var(--neon-teal), inset 0 0 10px var(--neon-teal);
+  text-align: center;
+}
+
+.revenue-banner {
+  background: var(--baby-pink);
+  color: var(--black);
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 20px var(--baby-pink);
+}
+
+.neon-teal-text {
+  color: var(--neon-teal);
+  text-shadow: 0 0 8px var(--neon-teal);
+}
+
+input {
+  background: #111;
+  border: 1px solid var(--baby-pink);
+  color: var(--neon-teal);
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  width: 100%;
+  background: var(--neon-teal);
+  color: var(--black);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px var(--neon-teal);
+}
+
+.terminal-window {
+  background: #050505;
+  border: 1px solid var(--deep-teal);
+  height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.terminal-bar {
+  background: var(--deep-teal);
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+}
+
+ul { list-style: none; padding: 10px; margin: 0; }
+li { color: var(--baby-pink); font-size: 0.85rem; padding-bottom: 5px; border-bottom: 1px dotted #222; }
+
+.btn-fb {
+  background: transparent;
+  color: var(--neon-teal);
+  border: 1px solid var(--neon-teal);
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
